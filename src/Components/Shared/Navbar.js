@@ -10,7 +10,7 @@ const Navbar = () => {
     ];
     let [open, setOpen] = useState(false);
     return (
-        <div className='sticky top-0 left-0 z-50 font-[Poppins] py-6 text-center bg-indigo-500 lg:px-24 px-4'>
+        <div className='sticky shadow-md top-0 left-0 z-50 font-[Poppins] py-6 text-center bg-indigo-500 lg:px-24 px-4'>
             <div className='flex items-center justify-between'>
                 <div className='cursor-pointer'>
                     <Link to="/"><img src={logo} alt="" /></Link>
