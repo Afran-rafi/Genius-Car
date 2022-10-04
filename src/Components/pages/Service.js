@@ -9,7 +9,7 @@ const Service = ({ service }) => {
         navigate(`/services/${id}`);
     }
     return (
-        <div className='border rounded p-1 mt-[32px]'>
+        <div className='border rounded p-1 mt-[16px]'>
             <div>
                 <img className='rounded' src={img} alt="" />
             </div>

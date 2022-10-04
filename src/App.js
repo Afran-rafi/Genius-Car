@@ -3,7 +3,9 @@ import './App.css';
 import HomePage from './Components/pages/HomePage';
 import ServiceDetails from './Components/pages/ServiceDetails';
 import Services from './Components/pages/Services';
+import Login from './Components/pages/Login';
 import Navbar from './Components/Shared/Navbar';
+
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
         <Route path='/services/:id' element={<ServiceDetails></ServiceDetails>}></Route>
         <Route path='' element></Route>
         <Route path='' element></Route>
-        <Route path='' element></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
         <Route path='' element></Route>
       </Routes>
     </div>
